@@ -2,8 +2,8 @@ vezes = int(input());
 count = 1;
 
 while count <= vezes:
-	teste = raw_input();
-	valores = teste.split();
+	bla = raw_input();
+	valores = bla.split();
 	nome = valores[0];
 	forcaNewtons = int(valores[1]);
 
@@ -13,6 +13,7 @@ while count <= vezes:
 		print "N"
 
 	else:
-		print "Y"
+		print "Y" 
 
 	count += 1
+	
