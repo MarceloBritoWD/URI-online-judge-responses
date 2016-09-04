@@ -13,7 +13,7 @@ while 1:
 				else:
 					i = i.upper()
 					cont += 1
-					final+= i
+					final += i
 					
 			else:
 				final += i
